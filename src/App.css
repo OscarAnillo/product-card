@@ -1,3 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
+  padding: 1em;
+  text-align: left;
+  background: hsl(30, 38%, 92%);
+}
+
+.product-img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.product-text {
+  padding: 1em;
+  background: hsl(0, 0%, 100%); 
+}
+
+.product-text h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: hsl(228, 12%, 48%);
+  padding-bottom: 1em;
+}
+
+.product-text h1 {
+  font-family: 'Fraunces', serif;
+  padding-bottom: .5em;
+}
+
+.product-text p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: hsl(228, 12%, 48%);
+  padding-bottom: 1em;
+}
+.product-text .prices h3 {
+  color: hsl(158, 36%, 37%);
+  font-family: 'Fraunces', serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.product-text .prices del {
+  color: hsl(228, 12%, 48%);
+  font-size: .7rem;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  top: -7px;
+  margin-left: 1em;
+}
+.product-text button {
+  width: 100%;
+  border: none;
+  padding: 1em 0;
+  color: #fff;
+  background: hsl(158, 36%, 37%); 
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin: .5em 0;
+}
+.product-text button span {
+  margin-left: .5em;
 }
